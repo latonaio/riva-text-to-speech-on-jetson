@@ -1,0 +1,8 @@
+{
+    // ID of device
+    device_id: xx,
+
+    // Server Address ([IP address]:[Port number])
+    // Port number must be a free port on Riva Speech Server
+    server_address: '192.xxx.xxx.xxx:50051'
+}

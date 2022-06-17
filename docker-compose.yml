@@ -1,0 +1,13 @@
+version: '3'
+services:
+  riva-tts:
+    container_name: riva-tts
+    build: .
+    volumes:
+      - ./:/app/mnt
+    ports:
+      - 8889:8889
+    devices:
+      - /dev/snd:/dev/snd
+    working_dir: /app/mnt
+    tty: true
